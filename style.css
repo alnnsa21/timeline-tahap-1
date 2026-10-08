@@ -1,0 +1,100 @@
+body {
+    background-color: lightgrey;
+    font-family: Arial;
+    color: black;
+    margin: 0px;
+}
+
+header {
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 3px solid rgb(65, 87, 176);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(0, 81, 139);
+    padding: 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+article {
+    background-color: rgb(212, 212, 212);
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 4px solid rgb(65, 126, 176);
+}
+
+section#hobi {
+    display: flex;
+    gap: 20px;
+}
+
+img {
+    max-width: 400px;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+textarea, input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid gray;
+}
+
+button {
+    background-color: rgb(56, 97, 184);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(36, 64, 122);
+    transform: scale(1.01);
+}
+
+button:active {
+    background-color: rgb(22, 38, 74);
+}
+
+footer {
+    background-color: rgb(0, 81, 139);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
