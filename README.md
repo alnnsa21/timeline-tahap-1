@@ -1,2 +1,2 @@
-# timeline-tahap-1-html
-Project pembelajaran timeline tahap  1: HTML
+# timeline-tahap-1
+Project pembelajaran timeline tahap  1
