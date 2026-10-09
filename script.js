@@ -67,13 +67,13 @@ let email = document.getElementById ("email");
 let nomor = document.getElementById ("nomor");
 let pesan = document.getElementById ("pesan");
 let tombol = document.querySelector ("button");
-tombol.addEventListener("click", function() {
+tombol.addEventListener("click", function(event) {
+    event.preventDefault();
+
     alert (
-        "Nama: " + nama.value +
-        "\nEmail: " + email.value +
-        "\nNomor: " + nomor.value +
+        "Nama: " + nama.value + 
+        "\nEmail: " + email.value + 
+        "\nNomor: " + nomor.value + 
         "\nPesan: " + pesan.value 
     );
 });
-let kontak = document.getElementById ("kontak");
-kontak.textContent = "Terima kasih sudah menghubungi saya!";
